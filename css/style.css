@@ -1,0 +1,1075 @@
+/* line 1, ../Web/Project/Study/Bootstrap/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 2, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 6, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+/* line 12, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 14, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 21, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 26, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 29, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 32, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 39, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 44, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 51, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 58, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 68, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../Web/Project/Study/Bootstrap/src/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 84, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/main-img.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 89, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 98, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 108, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 116, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, ../Web/Project/Study/Bootstrap/src/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 132, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 134, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 139, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.reasons_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 149, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.reasons_descr {
+  width: 343px;
+}
+
+/* line 152, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 158, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 165, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 176, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.label_white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* line 180, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 188, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.title_opportunities {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+/* line 195, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.title_last {
+  margin-bottom: 0;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 203, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subtitle {
+  margin-top: 19px;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 209, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.subtitle_last {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 216, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/mobile_background.png") center center/cover no-repeat;
+}
+
+/* line 220, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 222, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 229, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/mobile_apps_img_1.png") center center/cover no-repeat;
+}
+
+/* line 231, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/mobile_apps_img_2.png") center center/cover no-repeat;
+}
+
+/* line 233, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/mobile_apps_img_3.png") center center/cover no-repeat;
+}
+
+/* line 235, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/mobile_apps_img_4.png") center center/cover no-repeat;
+}
+
+/* line 237, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/mobile_apps_img_5.png") center center/cover no-repeat;
+}
+
+/* line 239, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/mobile_apps_img_6.png") center center/cover no-repeat;
+}
+
+/* line 241, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_subtitle {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 246, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: trandlsteX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* line 261, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 268, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_plus::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 279, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.mobile_item_plus:hover:before, .mobile_item_plus:hover::after {
+  background-color: #ff5656;
+}
+
+/* line 282, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.opportunities {
+  position: relative;
+  min-height: 895px;
+  padding: 57px 0 138px 0;
+  background: url("../img/mobile_background.png") center center/cover no-repeat;
+}
+
+/* line 287, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.opportunities .title_opportunities {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+/* line 294, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.opportunities .subtitle_opportunities {
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+  z-index: 4;
+}
+
+/* line 300, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.opportunities_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 3;
+}
+
+/* line 305, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.opportunities .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 313, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.opportunities_descr {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.41;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 320, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 322, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 324, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 326, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require_title {
+  font-size: 22px;
+  color: #1ca8c3;
+}
+
+/* line 329, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 333, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 339, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 21px;
+  background: url("../icons/check_blu.png") center center/cover no-repeat;
+}
+
+/* line 349, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 353, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url("../icons/check_red.png") center center/cover no-repeat;
+}
+
+/* line 356, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.last {
+  min-height: 717px;
+  position: relative;
+  padding: 49px 0;
+  background: url("../img/world_map.png") center center/cover no-repeat;
+}
+
+/* line 361, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.last .label_last {
+  width: 76px;
+  height: 24px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 372, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.last_link {
+  position: absolute;
+  left: 44%;
+  transform: translateY(-50%);
+  color: #1fbad6;
+  text-align: center;
+  bottom: 49px;
+  margin: 0 auto;
+}
+
+/* line 381, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 384, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 388, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 393, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 398, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 400, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 403, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 407, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: #070716;
+}
+
+/* line 416, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_social_item i {
+  color: #ffffff;
+}
+
+/* line 418, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_link {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 421, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_link_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 425, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_link_main a {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #070716;
+}
+
+/* line 430, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_link_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 434, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_link_sub a {
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+/* line 439, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_link_lang {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #1fbad6;
+}
+
+/* line 447, ../Web/Project/Study/Bootstrap/src/sass/_general.sass */
+.footer_mobile {
+  margin-right: 44px;
+  width: 297px;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 5, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 11, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 13, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+  }
+  /* line 16, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .mobile_item {
+    width: 300px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 21, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 23, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 26, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_logo {
+    width: 100%;
+  }
+  /* line 28, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 30, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 20px;
+  }
+  /* line 32, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 37, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 39, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 42, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 45, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_round {
+    margin-right: 0;
+  }
+  /* line 47, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 51, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .mobile_item {
+    width: 232px;
+    height: 270px;
+  }
+  /* line 54, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  /* line 56, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .mobile_item_plus {
+    left: 45%;
+  }
+  /* line 59, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .last_link {
+    left: 41%;
+  }
+  /* line 62, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_link {
+    width: 350px;
+    margin: 0 -14px;
+  }
+  /* line 65, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 131px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 71, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .xs_visible {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 75, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 87, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 90, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu .menu_item {
+    padding-right: 0;
+    bottom: none;
+    margin: 10px 0;
+  }
+  /* line 94, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu .menu_link {
+    font-size: 20px;
+  }
+  /* line 97, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .opportunities_img {
+    width: 100%;
+  }
+  /* line 99, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    width: 26px;
+    height: 12px;
+  }
+  /* line 106, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 115, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 117, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 119, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(0px) rotate(45deg);
+  }
+  /* line 121, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .xs_hidden {
+    display: none;
+  }
+  /* line 123, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .xs_visible {
+    display: block;
+  }
+  /* line 126, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  /* line 133, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 139, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_btn:hover {
+    background-image: linear-gradient to top, #1eacc7 0%, #4ce2ff 100%;
+  }
+  /* line 142, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 145, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 147, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 150, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 153, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 157, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader .subheader_phone {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 162, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+    background-image: linear-gradient to top, #1eacc7 0%, #4ce2ff 100%;
+  }
+  /* line 169, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 171, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .subheader .subheader_logo img {
+    width: 130px;
+  }
+  /* line 173, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 176, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 178, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 182, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 187, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 191, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .promo_btn:hover {
+    background-image: linear-gradient to top, #1eacc7 0%, #4ce2ff 100%;
+  }
+  /* line 193, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 195, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 199, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 201, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 203, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 205, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_img {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 208, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 211, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+  }
+  /* line 213, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .title {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 217, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .hamburger {
+    top: 10px;
+  }
+  /* line 220, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .last_link {
+    left: 25%;
+  }
+  /* line 222, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  footer {
+    padding: 25px 0 20px 0;
+    padding-min-height: 245px;
+  }
+  /* line 226, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_divider {
+    width: 253px;
+    margin: 0 auto;
+  }
+  /* line 230, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_wrapper {
+    padding-top: 22px;
+    flex-wrap: wrap;
+  }
+  /* line 234, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_wrapper > div {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  /* line 238, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  /* line 240, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  /* line 242, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+    justify-content: space-around;
+  }
+  /* line 245, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_social {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  /* line 251, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_mobile {
+    width: 260px;
+    flex-direction: inherit;
+  }
+  /* line 258, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_link {
+    width: 290px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /* line 265, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_link_main a {
+    padding: 0;
+    font-size: 14px;
+  }
+  /* line 268, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_link_sub {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 271, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_link_sub a {
+    font-size: 11px;
+    margin: 0 7px;
+  }
+  /* line 274, ../Web/Project/Study/Bootstrap/src/sass/_media.sass */
+  .footer_link_lang {
+    margin-top: 10px;
+    font-size: 11px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
